@@ -1,0 +1,34 @@
+Cliente
+	- nroCliente: int
+	- nombre: string
+	- apellido: string
+	- direccion: string
+	- telefono: string
+	- fechaDeNacimiento: Date
+	- fechaDeAlta: Date
+
+	Alquileres obtenerAlquileres();
+	bool devolver(CD cd);
+	Alquileres obtenerHistoricoAlquileres();
+CD
+	- nombre: string
+	- codigo: int
+	- fechaPublicacion: Date
+	- estilo: string
+	- cantidadCopias: int
+	- artista: string
+
+	bool esNovedad()
+Local
+	- nombre
+	- direccion
+	- Alquileres
+		masDemandados()
+Alquiler
+	- cliente: Cliente
+	- fecha: Date
+	- cd: CD
+	- fechaDevolucion: Date
+	- devuelto: bool
+
+	bool devolver();

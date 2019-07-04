@@ -1,0 +1,35 @@
+class Banco {
+	nombre: string;
+
+	direccion: string;
+
+	cantidadEmpleados: int;
+
+	cantidadClientes: int;
+
+	activo: bool;
+
+	function int informarCantidadEmpleados(){
+		paso1
+		paso2
+		paso3
+		return 1;
+	}
+
+	function void cambiarEstado(bool nuevoEstado){
+		activo = nuevoEstado;
+	}
+}
+
+function int nombreFuncion(){
+	paso1f
+	paso2f
+	paso3f
+	return 1;
+}
+
+procedure nombreProcedimiento(){
+	paso1
+	paso2
+	paso3
+}
